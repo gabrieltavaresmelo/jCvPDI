@@ -21,7 +21,7 @@ import com.googlecode.javacv.CanvasFrame;
 import com.googlecode.javacv.cpp.opencv_core.IplImage;
 
 /**
- * Classe de EVENTOS da TelaPrincipal para iteracao com o usuario
+ * Classe de eventos da TelaPrincipal para iteracao com o usuario
  * 
  * @author: Gabriel Tavares
  *
@@ -30,7 +30,7 @@ public class MainWindow extends MainWindowView implements ListenerEarthTranslate
 
 	private static final long serialVersionUID = 1L;
 	
-	// Unica instancia da tela
+	// Singleton
 	private static MainWindow instance = null;
 
 	private ThreadEarthTranslate threadEarthTranslate;

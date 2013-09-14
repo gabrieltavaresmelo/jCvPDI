@@ -4,6 +4,11 @@ import javax.swing.SwingUtilities;
 
 import br.com.translate.view.MainWindow;
 
+/**
+ * 
+ * @author Gabriel Tavares
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {

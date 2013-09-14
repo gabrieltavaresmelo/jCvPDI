@@ -25,7 +25,7 @@ import javax.swing.SwingConstants;
 import br.com.translate.util.OpenCvUtil;
 
 /**
- * Classe de LAYOUT da TelaPrincipal 
+ * Classe de layout da TelaPrincipal 
  * 
  * @author: Gabriel Tavares
  *

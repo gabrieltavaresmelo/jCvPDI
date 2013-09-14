@@ -16,6 +16,12 @@ import static com.googlecode.javacv.cpp.opencv_imgproc.*;
 import static com.googlecode.javacv.cpp.opencv_legacy.*;
 import static com.googlecode.javacv.cpp.opencv_highgui.*;
 
+/**
+ * Classe utilitaria com as funcoes do OpenCV
+ * 
+ * @author Gabriel Tavares
+ *
+ */
 public class OpenCvUtil {
 
 	public static IplImage grayToBinaryImage(IplImage grayImage, boolean isCopy) {

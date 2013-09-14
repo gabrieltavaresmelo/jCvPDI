@@ -4,6 +4,13 @@ import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.util.Random;
 
+/**
+ * Thread responsavel por fazer a Terra girar em 
+ * torno do Sol.
+ * 
+ * @author Gabriel Tavares
+ *
+ */
 public class ThreadEarthTranslate implements Runnable{
 
 	private boolean isRunning = false;

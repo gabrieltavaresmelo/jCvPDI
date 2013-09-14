@@ -9,6 +9,12 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
+/**
+ * Cria o Histograma de uma Imagem
+ * 
+ * @author Gabriel Tavares
+ *
+ */
 public class Histogram1D {
 
 	int numberOfBins = 256;
